@@ -1,0 +1,10 @@
+<?php
+define("servidor_bd", getenv("LENIUM_DB_HOST") ?: "localhost");
+define("nome_bd", getenv("LENIUM_DB_NAME") ?: "");
+define("usuario_bd", getenv("LENIUM_DB_USER") ?: "");
+define("senha_bd", getenv("LENIUM_DB_PASSWORD") ?: "");
+
+define("licenca_lnm", getenv("LENIUM_LICENSE") ?: "");
+
+define("debug", getenv("LENIUM_DEBUG") ?: "N");
+?>

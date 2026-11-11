@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'icons-v11';
+    src:  url('../fonts/icons-v11.eot?2oweog');
+    src:  url('../fonts/icons-v11.2oweog?eulij8#iefix') format('embedded-opentype'),
+    url('../fonts/icons-v11.ttf?2oweog') format('truetype'),
+    url('../fonts/icons-v11.woff?2oweog') format('woff'),
+    url('../fonts/icons-v11.svg?2oweog#icons-v11') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.icons-v11{
+  font-family: 'icons-v11' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-telegram:before {
+  content: "\e900";
+}
+.icon-x:before {
+  content: "\e901";
+}
+.icon-galeria:before {
+  content: "\e904";
+}
+.icon-enquetes:before {
+  content: "\e905";
+}
+.icon-contato:before {
+  content: "\e907";
+}
+.icon-dailymotion:before {
+  content: "\e90c";
+}
+.icon-facebook:before {
+  content: "\e90d";
+}
+.icon-colunas:before {
+  content: "\e90e";
+}
+.icon-busca:before {
+  content: "\e910";
+}
+.icon-noticias:before {
+  content: "\e911";
+}
+.icon-visualizacoes:before {
+  content: "\e912";
+}
+.icon-full:before {
+  content: "\e913";
+}
+.icon-camera:before {
+  content: "\e914";
+}
+.icon-classificados:before {
+  content: "\e935";
+}
+.icon-local:before {
+  content: "\e949";
+}
+.icon-upload:before {
+  content: "\e9c3";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-fechar:before {
+  content: "\ea0f";
+}
+.icon-seta:before {
+  content: "\ea50";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
+.icon-email:before {
+  content: "\e908";
+}
+.icon-play:before {
+  content: "\e90f";
+}
+
+
+
+
+@font-face {
+    font-family: 'tempo';
+    src:url('../fonts/tempo.eot?f0g06s');
+    src:url('../fonts/tempo.eot?f0g06s#iefix') format('embedded-opentype'),
+    url('../fonts/tempo.ttf?f0g06s') format('truetype'),
+    url('../fonts/tempo.woff?f0g06s') format('woff'),
+    url('../fonts/tempo.svg?f0g06s#tempo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icons-tempo {
+    font-family: 'tempo' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-nublado-noite:before {
+    content: "\e90b";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFB61F;
+    color: #fff;
+}
+.icon-nublado-noite:after {
+    content: "\e90c";
+    margin-left: -1em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+}
+.icon-nublado:before {
+    content: "\e90a";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+}
+.icon-tempestuoso:before {
+    content: "\e908";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFB61F;
+    color: #fff;
+    position: relative;
+}
+.icon-tempestuoso:after {
+    content: "\e909";
+    margin-left: -1em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+}
+.icon-ceu-claro-noite:before {
+    content: "\e900";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFB61F;
+    color: #fff;
+}
+.icon-ceu-claro-noite:after {
+    content: "\e901";
+    margin-left: -1em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff
+}
+.icon-chuva:before {
+    content: "\e904";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+}
+.icon-ensolarado:before {
+    content: "\e905";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFB61F;
+    color: #fff;
+}
+.icon-nublado-dia:before {
+    content: "\e906";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+    position: relative;
+}
+.icon-nublado-dia:after {
+    content: "\e907";
+    margin-left: -1em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #FFB61F;
+    color: #fff;
+}
+.icon-neblina:before {
+    content: "\e903";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff;
+}
+.icon-tempo-local:before {
+    content: "\e949";
+}
+.icon-vento:before {
+    content: "\e902";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff
+}
+.icon-umidade:before {
+    content: "\e90d";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff
+}
+.icon-sensacao:before {
+    content: "\e90e";
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: #1d1d1d;
+    color: #fff
+}
+.icon-nascer:before {
+    content: "\e910";
+    -webkit-text-stroke-width: inherit !important;
+    color: #FFB61F !important;
+}
+.icon-por:before {
+    content: "\e90f";
+    -webkit-text-stroke-width: inherit !important;
+    color: #FFB61F !important;
+}
+.topo-padrao .icon-nublado-noite:after, .topo-padrao .icon-nublado:before, .topo-padrao .icon-tempestuoso:after, .topo-padrao .icon-ceu-claro-noite:before, .topo-padrao .icon-chuva:before, .topo-padrao .icon-nublado-dia:before, .topo-padrao .icon-neblina:before{
+    -webkit-text-stroke-color: #fff;
+}
+.topo-padrao .icon-nublado-noite:before, .topo-padrao .icon-tempestuoso:before, .topo-padrao .icon-ceu-claro-noite:after, .topo-padrao .icon-ensolarado:before, .topo-padrao .icon-nublado-dia:after{
+    -webkit-text-stroke-color: #ffee00;
+}
+
+
+
+
+@font-face {
+  font-family: 'horoscopo';
+  src:  url('../fonts/horoscopo.eot?rih93s');
+  src:  url('../fonts/horoscopo.eot?rih93s#iefix') format('embedded-opentype'),
+    url('../fonts/horoscopo.ttf?rih93s') format('truetype'),
+    url('../fonts/horoscopo.woff?rih93s') format('woff'),
+    url('../fonts/horoscopo.svg?rih93s#horoscopo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icons-horoscopo{
+  font-family: 'horoscopo' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-stroke-width: .5px;
+}
+.icon-peixes:before {
+  content: "\e900";
+}
+.icon-aquario:before {
+  content: "\e901";
+}
+.icon-capricornio:before {
+  content: "\e902";
+}
+.icon-sagitario:before {
+  content: "\e903";
+}
+.icon-escorpiao:before {
+  content: "\e904";
+}
+.icon-libra:before {
+  content: "\e905";
+}
+.icon-virgem:before {
+  content: "\e906";
+}
+.icon-leao:before {
+  content: "\e907";
+}
+.icon-cancer:before {
+  content: "\e908";
+}
+.icon-gemeos:before {
+  content: "\e909";
+}
+.icon-touro:before {
+  content: "\e90a";
+}
+.icon-aries:before {
+  content: "\e90b";
+}

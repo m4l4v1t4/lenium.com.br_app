@@ -1,0 +1,96 @@
+.icon-plwhats-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 50px;
+    font-family: 'Roboto';
+    z-index: 9999999999;
+}
+.icon-plwhats-popup span {
+    position: absolute;
+    width: 100px;
+    top: -60px;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    font-size: 13px;
+}
+.icon-plwhats-popup span:before {
+    content: "";
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 10px;
+    height: 10px;
+    background: #000
+}
+.icon-plwhats-popup div {
+    border-radius: 50%;
+    padding: 15px;
+    -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.05);
+    animation: pulse 1s ease infinite alternate, nudge 1s linear infinite alternate;
+    background: #25D366;
+}
+.icon-plwhats-popup img{
+    width: 30px;
+    height: 30px;
+}
+.botao-plwhats-noticia{
+    float: left;
+    width: 90%;
+    padding: 20px 5%;
+    border-radius: 5px;
+    background: #25D366;
+}
+.botao-plwhats-noticia:hover{
+    opacity: .7; 
+}
+.botao-plwhats-noticia img{
+    float: left;
+    height: 20px;
+}
+.botao-plwhats-noticia span{
+    float: left;
+    margin-left: 5px;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+@media (max-width: 500px) {
+    .icon-plwhats-popup {
+        bottom: 10px;
+        right: 10px;
+    }
+    .icon-plwhats-popup span {
+        display: none
+    }
+    .botao-plwhats-noticia{
+        text-align: center;
+    }
+    .botao-plwhats-noticia img{
+        float: none;
+    }
+    .botao-plwhats-noticia span{
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+@keyframes nudge {
+    0%, 100% {
+        transform: translate(0, 1px)
+    }
+    50% {
+        transform: translate(0, 1px)
+    }
+    80% {
+        transform: translate(0, 13px)
+    }
+}

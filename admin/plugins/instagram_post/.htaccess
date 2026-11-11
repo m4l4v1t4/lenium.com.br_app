@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^img-gera-post/([^/]+)\.jpeg$ img-gera-post.php?id=$1 [L]
+RewriteRule ^img-gera-post-storie/([^/]+)\.jpeg$ img-gera-post-storie.php?id=$1 [L]
+RewriteRule ^img-storie/([^/]+)\.jpeg$ img-storie.php?id=$1 [L]

@@ -1,0 +1,317 @@
+.realt-ga-home{
+    font-family: 'Roboto';
+    position: relative;
+    width: 25%;
+    padding: 20px 2%;
+    margin: 30px .5% 0 .5%;
+    overflow: hidden;
+}
+.usuarios-ga-home{
+    float: right;
+    position: relative;
+    width: 65%;
+    padding: 20px 2%;
+    margin: 30px .5% 0 .5%;
+}
+.progresso-ga{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background: #0abc03 !important;
+    transition: width .5s;
+    opacity: .7;
+}
+.g-analytics-home{
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    -moz-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+    -o-box-shadow: inset 0 0 0 1px rgba(0,0,0,0.1);
+}
+.tt-analytics-1{
+    font-size: 18px !important;
+    font-weight: 900 !important;
+}
+.tt-analytics-1 span{
+    font-size: 14px;
+    font-weight: 300;
+}
+.tt-analytics-2{
+    margin: 5px 0;
+    font-size: 12px !important;
+    font-weight: 300;
+}
+.btn-ga-home{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid;
+    text-decoration: none;
+}
+.tt-ga-sub{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 900;
+    font-size: 14px;
+    color: #575757;
+}
+.tt-pg-realt-ga{
+    margin: 20px 0 10px 0;
+}
+.dados-realt-ga{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.dados-realt-ga .icon-carregando{
+    float: none;
+    margin: 30px 0;
+    display: inline-block;
+    font-size: 22px;
+    animation-name: girando_ga;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: girando_ga;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.icon-carregando-ga{
+    animation-name: girando_ga;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: girando_ga;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.realt-ga-total{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+}
+.realt-ga-total:before{
+    content: '';
+    position: absolute;
+    width: 50%;
+    left: 25%;
+    bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.pos-chart-ga{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.env-canvas-ga{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+#realt-ga-home-chart{
+    margin: 0 auto;
+}
+.nenhum-dado-ga{
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    font-size: 16px;
+}
+.realt-ga-home .nenhum-dado-ga{
+    margin: 200px 0;
+}
+.lista-dispositivos-ga-realt{
+    float: left;
+    width: 100%;
+}
+.itens-list-ga-disp-1 .disp-ga-realt{
+    width: 90%;
+}
+.itens-list-ga-disp-2 .disp-ga-realt{
+    width: 40%;
+}
+.itens-list-ga-disp-3 .disp-ga-realt{
+    width: 23.33333333333333%;
+}
+.disp-ga-realt{
+    position: relative;
+    float: left;
+    padding: 10px 5%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.disp-ga-realt:before{
+    content: '';
+    position: absolute;
+    height: 50%;
+    top: 25%;
+    right: 0;
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+.disp-ga-realt:last-of-type:before{
+    display: none;
+}
+.disp-ga-realt span:nth-of-type(1){
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+}
+.disp-ga-realt span:nth-of-type(2){
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 300;
+}
+.disp-ga-realt span:nth-of-type(3){
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.lista-paginas-ga-realt{
+    float: left;
+    width: 90%;
+    padding: 0 5%;
+}
+.pagina-ga-realt{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgba(0,0,0,0.1);
+    text-align: left;
+    list-style-type: circle;
+}
+.pagina-ga-realt:last-of-type{
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+.pagina-ga-realt span:nth-of-type(1){
+    font-size: 13px;
+    font-weight: 300;
+}
+.pagina-ga-realt span:nth-of-type(2){
+    font-size: 13px;
+    font-weight: 400;
+}
+.pagina-ga-realt span:nth-of-type(2):before{
+    content: "\f06e";
+    font-family: 'multi' !important;
+    margin-left: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    opacity: .5;
+}
+.line-ga-home{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.line-ga-home .icon-carregando{
+    float: none;
+    margin: 30px 0;
+    display: inline-block;
+    font-size: 22px;
+    animation-name: girando_ga;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: girando_ga;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+.botao-google-an{
+    float: left;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #4285F4;
+}
+.botao-google-an img{
+    float: left;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 3px 0 0 3px;
+    background: #fff;
+}
+.botao-google-an span{
+    float: left;
+    margin-top: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+@media (max-width: 1300px){
+    .realt-ga-home{
+        width: 35%;
+    }
+    .usuarios-ga-home{
+        width: 55%;
+    }
+}
+@media (max-width: 1000px){
+    .realt-ga-home, .usuarios-ga-home{
+        width: 95%;
+    }
+    .env-canvas-ga{
+        width: 50%;
+        margin: 10px 25%;
+    }
+    .realt-ga-home .nenhum-dado-ga{
+        margin: 20px 0;
+    }
+}
+@media (max-width: 579px){
+    .realt-ga-home, .usuarios-ga-home{
+        float: left !important;
+    }
+    .env-canvas-ga{
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media (max-width: 400px){
+    .g-analytics-home{
+        border-radius: 0;
+    }
+    .btn-ga-home{
+        position: relative;
+        float: left;
+        top: 10px;
+        right: 0;
+        margin-bottom: 10px;
+    }
+}
+@-webkit-keyframes girando_ga {
+    from {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

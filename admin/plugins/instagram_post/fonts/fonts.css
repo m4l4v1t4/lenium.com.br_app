@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'plinsta';
+  src:  url('../fonts/insta.eot?veinib');
+  src:  url('../fonts/insta.eot?veinib#iefix') format('embedded-opentype'),
+    url('../fonts/insta.ttf?veinib') format('truetype'),
+    url('../fonts/insta.woff?veinib') format('woff'),
+    url('../fonts/insta.svg?veinib#insta') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.icon-pl-insta {
+  font-family: 'plinsta' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-pl-insta-logo:before {
+  content: "\ea92";
+}
+.icon-pl-insta-load:before {
+  content: "\e97b";
+}

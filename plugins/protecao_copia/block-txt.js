@@ -1,0 +1,1 @@
+$(document).ready(function(){$("body").bind("contextmenu",function(t){t.preventDefault()}),$("body").bind("selectstart dragstart",function(t){return t.preventDefault(),!1}),$("body").bind("cut copy paste",function(){return!1}),$("body").focus(function(){$(this).blur()})});

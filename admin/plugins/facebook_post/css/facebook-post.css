@@ -1,0 +1,30 @@
+.facebook-post-btn {float: left; cursor: pointer;margin: 10px 0px;padding: 10px 20px;border-radius: 4px;background: rgb(66, 103, 178);}.facebook-post-btn i::before {content: "\e90d";font-family: 'multi';float: left;font-size: 25px;color: rgb(255, 255, 255);font-style: normal;}.facebook-post-btn span {float: left;margin-left: 10px;margin-top: 3px;font-size: 16px;color: rgb(255, 255, 255);font-weight: 400;}@font-face {font-family: 'facebook-post-plugin';src:url('fonts/facebook.eot?kju1bw');src:url('fonts/facebook.eot?kju1bw#iefix') format('embedded-opentype'),url('fonts/facebook.ttf?kju1bw') format('truetype'),url('fonts/facebook.woff?kju1bw') format('woff'),url('fonts/facebook.svg?kju1bw#facebook') format('svg');font-weight: normal;font-style: normal;}.tt-instrucoes-fb-post{float:left;width:100%;font-size:20px;font-weight:300;text-align:center;margin-bottom:20px;}
+
+.icon-carregando-fb-post{
+    display: block;
+    animation-name: girando_fb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: girando_fb;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes girando_fb {
+    from {
+        -ms-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}

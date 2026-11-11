@@ -1,0 +1,185 @@
+@font-face {
+    font-family: 'menu';
+    src:  url('../fonts/menu.eot?iiaxkc');
+    src:  url('../fonts/menu.eot?iiaxkc#iefix') format('embedded-opentype'),
+    url('../fonts/menu.ttf?iiaxkc') format('truetype'),
+    url('../fonts/menu.woff?iiaxkc') format('woff'),
+    url('../fonts/menu.svg?iiaxkc#menu') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.icons-menu{
+    font-family: 'menu' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-plugins:before {
+  content: "\e900";
+}
+.icon-layout:before {
+  content: "\e901";
+}
+.icon-temas:before {
+  content: "\e902";
+}
+.icon-enquetes:before {
+  content: "\e903";
+}
+.icon-videos:before {
+  content: "\e912";
+}
+.icon-paginas:before {
+  content: "\e922";
+}
+.icon-seta:before {
+  content: "\e93c";
+}
+.icon-usuarios:before {
+  content: "\e972";
+}
+.icon-configuracoes:before {
+  content: "\e994";
+}
+.icon-acessos:before {
+  content: "\e9b4";
+}
+.icon-inicio:before {
+  content: "\f015";
+}
+.icon-sobre:before {
+  content: "\f05a";
+}
+.icon-classificados:before {
+  content: "\f07a";
+}
+.icon-comentarios:before {
+  content: "\f086";
+}
+.icon-anuncios:before {
+  content: "\f0a1";
+}
+.icon-colunas:before {
+  content: "\f0ac";
+}
+.icon-noticias:before {
+  content: "\f1ea";
+}
+.icon-lixeira:before {
+  content: "\f1f8";
+}
+.icon-sair:before {
+  content: "\f2f5";
+}
+.icon-galerias:before {
+  content: "\f302";
+}
+.icon-municipios:before {
+  content: "\f3c5";
+}
+.icon-logomarca:before {
+  content: "\f5c0";
+}
+@font-face {
+    font-family: 'multi';
+    src:  url('../fonts/multi.eot?azdm0b');
+    src:  url('../fonts/multi.eot?azdm0b#iefix') format('embedded-opentype'),
+    url('../fonts/multi.ttf?azdm0b') format('truetype'),
+    url('../fonts/multi.woff?azdm0b') format('woff'),
+    url('../fonts/multi.svg?azdm0b#multi') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+.icons-multi{
+    font-family: 'multi' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-onoff:before {
+  content: "\e902";
+}
+.icon-atualiza:before {
+  content: "\e900";
+}
+.icon-sair2:before {
+  content: "\e904";
+}
+.icon-espaco:before {
+  content: "\e963";
+}
+.icon-carregando:before {
+  content: "\e97b";
+}
+.icon-email:before {
+  content: "\f0e0";
+}
+.icon-pdf:before {
+  content: "\f1c1";
+}
+.icon-login:before {
+  content: "\f2f6";
+}
+.icon-link:before {
+  content: "\f360";
+}
+.icon-faturas:before {
+  content: "\f571";
+}
+.icon-nao:before {
+  content: "\e901";
+}
+.icon-sim:before {
+  content: "\f058";
+}
+.icon-editar:before {
+  content: "\f044";
+}
+.icon-ver:before {
+  content: "\f06e";
+}
+.icon-lista:before {
+  content: "\f03a";
+}
+.icon-lixo:before {
+  content: "\f1f8";
+}
+.icon-desbloquear:before {
+  content: "\f09c";
+}
+.icon-dailymotion:before {
+  content: "\e90c";
+}
+.icon-facebook:before {
+  content: "\e90d";
+}
+.icon-upload:before {
+  content: "\e9c3";
+}
+.icon-arquivos:before {
+  content: "\e9c4";
+}
+.icon-estrela-meio:before {
+  content: "\e9d8";
+}
+.icon-estrela-total:before {
+  content: "\e9d9";
+}
+.icon-html:before {
+  content: "\ea80";
+}
+.icon-youtube:before {
+  content: "\ea9d";
+}
